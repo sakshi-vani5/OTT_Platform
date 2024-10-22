@@ -1,38 +1,219 @@
-.App {
-  text-align: center;
+
+
+
+
+/* logo img */
+img[src="https://media.istockphoto.com/id/1464727449/vector/book-media-logo-design-icon-template.jpg?s=612x612&w=0&k=20&c=OZo97JVOmebHY-gvbJYtwCVqjfaX_fSL80yFtp0rmTM="]{
+  border-radius: 50%;
+  /* margin-right: 92%; */ 
+  /* border: 1px solid; */
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+#mainNav{
+display: grid;
+background-color:  rgb(53, 107, 107);
+color: #fdf9f9;
+grid-template-columns: repeat(2,1fr);
+
+
+}
+.smlNav{
+  display: grid;
+  grid-template-columns: repeat(2,10%);
+}
+.smlNav>a{
+ color: #fdf9f9;
+}
+#libraryName{
+  margin-top: 15%;
+ margin-left: 10%;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#bgImg{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/436/228/997/movies-mad-max-the-dark-knight-interstellar-movie-wallpaper-preview.jpg");
+  height: 530px;
   color: white;
+ padding: 10%;
+  font-size: larger;
+
+
+
+  
+}
+#pop{
+  color: aqua;
+  font-family: cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.first{
+  margin-left: 5%;
+  font-family: cursive;
+}
+.second{
+  margin-left: 8%;
+  font-family: cursive;
+}
+.third{
+  margin-left: 11%;
+  font-family: cursive;
+}
+.fourth{
+  margin-left: 19%;
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myh1{
+  text-align: center;
+  margin-top: 40px;
+ 
 }
+
+#c1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+
+/* about section css starts */
+#abtDiv{
+  /* border: 1px solid; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 500px;
+  margin-top: 30px;
+
+}
+#abtDiv>div{
+  /* border: 1px solid; */
+  padding: 50px;
+
+}
+
+#onlnBtn{
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border: none;
+  border-radius: 5%;
+  margin: 10px;
+
+}
+
+/* byeOnline submit css starts here */
+
+#onlnC{
+  /* border: 1px solid black; */
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#onlnC1{
+/* border: 1px solid red; */
+height: 500px;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background-image: url("https://img.freepik.com/premium-photo/movie-night-streaming-app-tv-with-popcorn-generative-by-ai_894067-10449.jpg");
+}
+
+#onlnC2{
+
+height: auto;
+width: 40%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+padding: 50px;
+border-radius: 10px;
+
+box-shadow: rgba(250, 251, 252, 0.12) 0px 2px 4px 0px, rgba(254, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+
+input {
+ 
+  border: 1px solid;
+  border-radius: 5px;
+  
+}
+#submitBtn{
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border: none;
+  border-radius: 5%;
+  margin: 10px;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#heading{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#submitBtn:hover{
+  color: white;
+  background-color:green;
+}
+
+/* Contact css starts here */
+
+#contactDiv{
+  /* border: 1px solid; */
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactDiv>div{
+  height: 400px;
+  /* border: 2px solid red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 50%;
+  padding: 60px  60px 60px 60px;
+}
+
+#contactDiv>div>h3{
+  margin-top: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* footer css starts here */
+#footerBigDiv{
+  /* border: 1px solid ; */
+  height: 400px;
+ margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4,260px);
+ 
+  padding: 20px;
+}
+#footerBigDiv>div{
+  height: 400px;
+  /* border: 1px solid red; */
+ padding-left: 60px;
+
+}
+
+@media all and (max-width: 1063px) and (min-width:300px){
+ *{
+  width: 100%;
+
+ }
+
+}
+
