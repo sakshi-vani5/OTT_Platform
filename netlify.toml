@@ -1,0 +1,8 @@
+[build]
+  publish = "build"
+  command = "echo 'Build already exists, skipping build step.'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
