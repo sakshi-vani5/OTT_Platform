@@ -23,7 +23,7 @@ function NavB() {
             <Nav.Link href="/About" style={{color:"white" ,marginTop:"12px"}}>About</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/ByeOnline" style={{color:"white",marginTop:"12px"}}>Bye Online</Nav.Link>
+            <Nav.Link href="/BuyOnline" style={{color:"white",marginTop:"12px"}}>Buy Online</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/Contact" style={{color:"white" ,marginTop:"12px"}}>Contact</Nav.Link>
